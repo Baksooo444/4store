@@ -1,0 +1,186 @@
+.people_technology,
+.data_centers {
+    background-image: url(../images/png/people_technology_bg_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid #0268ff
+}
+
+.card_main_parent {
+    border-radius: 20px;
+    padding: 20px
+}
+
+.card_main_parent img {
+    max-width: 500px
+}
+
+.card_main_parent h2 {
+    font-size: 24px
+}
+
+.card_parent {
+    grid-template-columns: repeat(1, 1fr)
+}
+
+.security_measures {
+    padding: 0 12px !important
+}
+
+.our_team_member {
+    font-size: 16px
+}
+
+.our_team_card {
+    border-radius: 24px;
+    background-image: url(../assets/images/webp/our_team_card_bg_img.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.our_team_card_parent>div {
+    transition: all .2s ease-in-out
+}
+
+.our_team_card_parent>div:hover {
+    transform: scale(1.02)
+}
+
+.our_team_slider_card {
+    transition: all .2s ease-in-out
+}
+
+.our_team_slider_card:hover {
+    transform: scale(1.02)
+}
+
+.team_card_blue_box_img {
+    max-width: 60px;
+    z-index: -1
+}
+
+.about_slider.slick-track {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    margin: 12px !important
+}
+
+.our_team_card_parent {
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.about_arrows_parent {
+    margin: 0 auto;
+    position: relative;
+    left: 0%;
+    z-index: 2;
+    display: flex
+}
+
+.about_arrows_parent span {
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 2;
+    transition: all .2s linear;
+    top: 5px
+}
+
+.about_arrows_parent span:hover {
+    background-color: #034ef7;
+    transition: all .2s ease-in-out
+}
+
+.about_arrows_parent span:hover svg path {
+    stroke: #fff;
+    transition: all .2s ease-in-out
+}
+
+.about_arrows_parent .next {
+    position: absolute;
+    right: 4px
+}
+
+.about_arrows_parent .prev {
+    position: absolute;
+    left: 4px
+}
+
+.blog_footer_bg {
+    background-image: url(/assets/images/webp/blog_footer_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 148px
+}
+
+.blog_footer_bg li a {
+    transition: all .2s linear
+}
+
+.blog_footer_bg li a:hover {
+    color: #0e4bfe !important
+}
+
+@media(max-width:1399.98px) {
+    .blog_footer_bg {
+        border-radius: 90px
+    }
+}
+
+@media(max-width:1199.98px) {
+    .blog_footer_bg {
+        border-radius: 60px
+    }
+}
+
+@media(max-width:767.98px) {
+    .footer_max_width {
+        max-width: 500px;
+        margin: 0 auto !important
+    }
+}
+
+@media(max-width:575.98px) {
+    .blog_footer_bg ul {
+        width: 40%
+    }
+    .blog_footer_bg {
+        border-radius: 0
+    }
+    .blog_footer_bg {
+        margin-top: 171px
+    }
+}
+
+@media(min-width:576px) {
+    .card_main_parent {
+        padding: 32px !important
+    }
+}
+
+@media(min-width:768px) {
+    .card_parent {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .card_main_parent h2 {
+        font-size: 30px
+    }
+    .our_team_card_parent {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media(min-width:992px) {
+    .card_main_parent {
+        padding: 58px 69px !important
+    }
+    .card_main_parent h2 {
+        font-size: 35px
+    }
+    .our_team_member {
+        font-size: 20px
+    }
+}
